@@ -1,3 +1,122 @@
-.App {
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hwb(0 0% 100%);
+  background-image: url('https://images2.alphacoders.com/805/805172.jpg');
+  background-position: 30% 45%;
+  background-size: cover;
+  color: hwb(0 100% 0%);
+  display: block;
+  height: 100vh;
+  padding: 0;
   text-align: center;
+  width: 100vw;
+}
+
+header {
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 40px;
+}
+
+.display-title {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0.775);
+  border: 2px solid rgb(86, 86, 86);
+  border-radius: 10px;
+  font-size: 40px;
+  width: 75%;
+}
+
+.all-planets {
+  align-items: center;
+  display: flex;
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+.Mercúrio {
+  height: auto;
+  max-height: 30px;
+  max-width: 30px;
+  width: auto;
+}
+
+.Vênus {
+  height: auto;
+  max-height: 90px;
+  max-width: 90px;
+  width: auto;
+}
+
+.Terra {
+  height: auto;
+  max-height: 90px;
+  max-width: 90px;
+  width: auto;
+}
+
+.Marte {
+  height: auto;
+  max-height: 250px;
+  max-width: 250px;
+  width: auto;
+}
+
+.Júpiter {
+  height: auto;
+  max-height: 250px;
+  max-width: 250px;
+  width: auto;
+}
+
+.Saturno {
+  height: auto;
+  max-height: 240px;
+  max-width: 240px;
+  width: auto;
+}
+
+.Urano {
+  height: auto;
+  max-height: 110px;
+  max-width: 110px;
+  width: auto;
+}
+
+.Netuno {
+  height: auto;
+  max-height: 110px;
+  max-width: 110px;
+  width: auto;
+}
+
+.all-missions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.mission {
+  background-color: rgba(0, 0, 0, 0.775);
+  border: 2px solid rgb(86, 86, 86);
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 15px;
+  padding: 70px;
+}
+
+.name-mission {
+  border-bottom: 2px solid rgb(86, 86, 86);
+  border-radius: 10px;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
